@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/header/header';
+import Header2 from './components/header/Header2';
+import Home from './components/home/Home';
 
-function App() {
+const App = () => {
   return (
     <>
-    <Header />
+    <Header2/>
+
+    <main className='main'>
+      <Home />
+    </main>
     </>
   );
 }

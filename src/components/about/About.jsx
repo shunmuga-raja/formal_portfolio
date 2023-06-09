@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
 import AboutImg from "../../assets/about.JPG";
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/Shan-CV.pdf";
 import Info from './Info';
 
 
@@ -18,7 +18,7 @@ const About = () => {
           < Info />
 
           <p className="about__description">
-            Software developer, I create Web application and Android application, I have years of experience and many clients are happy with the projects carried out.
+            Software developer, I create Web application and Android application,I have an experience on the Some College projects.
           </p>
 
           <a download="" href={CV} className="button button--flex">Download CV

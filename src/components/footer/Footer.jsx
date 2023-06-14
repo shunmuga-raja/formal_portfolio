@@ -21,6 +21,21 @@ const Footer = () => {
                     </li>
                 </ul>
 
+                <div className="footer__social">
+                    <a href='https://www.linkedin.com/in/shanmuga-raja-914124219' className='footer__social-link' target='_blank'>
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+
+                    {/*dribble icons*/}
+                    <a href='https://portfolio-92877.web.app' className='footer__social-link' target='_blank'>
+                        <i class="uil uil-dribbble"></i>
+                    </a>
+
+                    {/*github icons*/}
+                    <a href='https://github.com/shunmuga-raja' className='footer__social-link' target='_blank'>
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
 
                 <span className='footer__copy'>&#169; ShanCoder. All rights reserved</span>
             </div>

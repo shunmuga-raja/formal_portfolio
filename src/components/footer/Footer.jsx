@@ -21,21 +21,6 @@ const Footer = () => {
                     </li>
                 </ul>
 
-                <div className="footer__social">
-                    <a href='https://www.instagram.com/' className='footer__social-link' target='_blank'>
-                        <i class="uil uil-instagram"></i>
-                    </a>
-
-                    {/*dribble icons*/}
-                    <a href='https://dribbble.com/' className='footer__social-link' target='_blank'>
-                        <i class="uil uil-dribbble"></i>
-                    </a>
-
-                    {/*github icons*/}
-                    <a href='https://github.com/shunmuga-raja' className='footer__social-link' target='_blank'>
-                        <i class="uil uil-github-alt"></i>
-                    </a>
-                </div>
 
                 <span className='footer__copy'>&#169; ShanCoder. All rights reserved</span>
             </div>
